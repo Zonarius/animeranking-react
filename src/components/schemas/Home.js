@@ -12,6 +12,7 @@ import { Content } from 'bloomer/lib/elements/Content';
 import { Title } from 'bloomer/lib/elements/Title';
 
 import { Link } from 'react-router-dom';
+import { Section } from 'bloomer/lib/layout/Section';
 
 const query = `{
   uuid
@@ -40,11 +41,13 @@ export default function Home({ node }) {
     .map(YearCard);
 
   return (
-    <Container className="years">
-      <Columns>
-        {years}
-      </Columns>
-    </Container>
+    <Section>
+      <Container className="years">
+        <Columns>
+          {years}
+        </Columns>
+      </Container>
+    </Section>
   )
 }
 
