@@ -5,3 +5,7 @@
 .card .title {
   text-transform: capitalize;
 }
+
+.tier-title {
+  margin-top: 1em;
+}
