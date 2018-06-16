@@ -6,7 +6,7 @@ import { Hero } from 'bloomer/lib/layout/Hero/Hero';
 
 export default function Header() {
   return (
-    <Hero isColor="primary">
+    <Hero isColor="primary" className="header">
       <HeroBody>
         <Container>
           <Title isSize={1}>Anime Ranking</Title>

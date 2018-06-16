@@ -1,3 +1,11 @@
 .mycontent {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 10px;
 }

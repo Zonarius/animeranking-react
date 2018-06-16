@@ -21,6 +21,13 @@
     "/api/v1": {
       "changeOrigin": true,
       "target": "https://mesh.zonari.us"
+    },
+    "/images": {
+      "changeOrigin": true,
+      "target": "https://mesh.zonari.us",
+      "pathRewrite": {
+        "^/": "/api/v1/animeranking/webroot/"
+      }
     }
   }
 }
