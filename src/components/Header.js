@@ -1,7 +1,17 @@
 import React from 'react';
+import { HeroBody } from 'bloomer/lib/layout/Hero/HeroBody';
+import { Container } from 'bloomer/lib/layout/Container';
+import { Title } from 'bloomer/lib/elements/Title';
+import { Hero } from 'bloomer/lib/layout/Hero/Hero';
 
 export default function Header() {
   return (
-    <div>Header</div>
+    <Hero isColor="primary">
+      <HeroBody>
+        <Container>
+          <Title isSize={1}>Anime Ranking</Title>
+        </Container>
+      </HeroBody>
+    </Hero>
   )
 }
